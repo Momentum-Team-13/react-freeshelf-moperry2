@@ -1,4 +1,27 @@
-.image {
+/* .image {
+  width: 400px;
+  height: 400px;
+} */
+img {
+  text-align: center;
+  padding: 2px;
   width: 300px;
   height: 300px;
+  box-shadow: rgb(112, 125, 144) 2px 5px;
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+.card_top {
+  display: flex;
+  flex-direction: row;
+  max-width: max-content;
+  max-height: fit-content;
+  vertical-align: middle;
+}
+
+.text_info {
+  width: 200px;
+  text-align: center;
 }

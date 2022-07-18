@@ -4,10 +4,9 @@ import "./bookDetails.css";
 export default function BookDetails({ book }) {
   return (
     <div className="detail">
-      <br></br>
-      <div className="expanded">{book.detailedDescription}</div>
+      <div className="expanded">{book.detailedDescription} &nbsp; &nbsp;</div>
       {book.publicationDate != null && (
-        <span>Published {book.publicationDate}</span>
+        <span>Published: {book.publicationDate}</span>
       )}{" "}
       {book.publisher != null && <span>by {book.publisher}</span>}
       <div id="url">
